@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="de">
+   <head>
+      <meta charset="utf-8">
+      <title>Ophtra | eyecre</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+	  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+	  <link rel="apple-touch-icon" sizes="76x76" href="apple-touch-icon.png">
+	  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+	  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+	  <link rel="manifest" href="site.webmanifest">
+	  <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+	  <meta name="msapplication-TileColor" content="#ffffff">
+	  <meta name="theme-color" content="#ffffff">	  
+
+	  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	  <link rel="stylesheet" href="css/style.css">
+	  <link rel="stylesheet" href="css/responsive.css">
+	  <link rel="stylesheet" href="css/custom.css">
+	  
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+	  <script src="https://kit.fontawesome.com/7f6d545d96.js" crossorigin="anonymous"></script>	  
+   </head>
+   <body class="dashboard dashboard_2">
+      <div class="full_container">
+         <div class="inner_container">
+            <!-- Sidebar  -->
+            <nav id="sidebar">
+               <div class="sidebar_blog_1">
+                  <div class="sidebar-header">
+                     <div class="logo_section">
+                        <a href="index.html"><img class="logo_icon img-responsive" src="images/logo_icon.png" alt="#"></a>
+                     </div>
+                  </div>                  
+               </div>
+               <div class="sidebar_blog_2">
+                  <h4>Menü</h4>
+                  <ul class="list-unstyled components">
+                     <li class="active">
+                        <a href="index.html" aria-expanded="false"><i class="fa fa-dashboard blue_color"></i> <span>Startseite</span></a>
+                     </li>
+					 <li>
+                        <a href="#element" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i class="fa fa-soccer-ball-o blue_color"></i> <span>Trainings</span></a>
+                        <ul class="collapse list-unstyled" id="element">
+						   <li><a href="training_neu.html">> <span>Neues Training</span></a></li>
+                           <li><a href="training_1.html">> <span>Training 1</span></a></li>
+                           <li><a href="#">> <span>Training 2</span></a></li>
+                        </ul>
+                     </li>
+					</ul>
+               </div>
+            </nav>
+            <!-- end sidebar -->
+            <!-- right content -->
+            <div id="content">
+               <!-- topbar -->
+               <div class="topbar">
+                  <nav class="navbar navbar-expand-lg navbar-light">
+                     <div class="full">
+                        <button type="button" id="sidebarCollapse" class="sidebar_toggle"><i class="fa fa-bars"></i></button>
+                        <div class="logo_section">
+                           <a href="index.html"><img class="img-responsive" src="images/logo-eyecre.png" alt="eyecre"></a>
+                        </div>
+                        <div class="right_topbar">
+                           <div class="icon_info">
+								<ul>
+                                 <li><a href="#"><i class="fa fa-shopping-cart"></i><span class="badge">4</span></a></li>
+								</ul>
+                                <ul class="user_profile_dd">
+                                 <li>
+                                    <a class="dropdown-toggle" data-toggle="dropdown"><span class="name_user">Demo User</span></a>
+                                    <div class="dropdown-menu">
+                                       <a class="dropdown-item" href="#">Mein Profil</a>
+                                       <a class="dropdown-item" href="#">Einstellungen</a>
+                                       <a class="dropdown-item" href="#">Hilfe</a>
+                                       <a class="dropdown-item" href="#"><span>Abmelden</span> <i class="fa fa-sign-out"></i></a>
+                                    </div>
+                                 </li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                  </nav>
+               </div>
+               <!-- end topbar -->
+               <div class="midde_cont">
+                  <div class="container-fluid">
+                     <div class="row column_title">
+                        <div class="col-md-12">
+                           <div class="page_title">
+                              <h2>Willkommen, Demo User!</h2>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- row -->
+                     <div class="row column1">
+                        <div class="col-md-12">
+                           <div class="white_shd full margin_bottom_30">
+                              <div class="full graph_head">
+                                 <div class="heading1 margin_0">
+                                    <h2>Meine Trainings</h2>
+                                 </div>
+                              </div>
+                              <div class="full price_table padding_infor_info">
+                                 <div class="row">
+                                    <div class="col-lg-12">
+                                       <div class="table-responsive-sm">
+                                          <table class="table table-striped trainings">
+                                             <thead class="thead-dark">
+                                                <tr>
+                                                   <th style="width: 2%">Nr.</th>
+                                                   <th style="width: 60%">Training Titel</th>
+                                                   <th>Fortschritt</th>
+                                                   <th style="width: 10%">Status</th>
+                                                </tr>
+                                             </thead>
+                                             <tbody>
+                                                <tr>
+                                                   <td>1</td>
+                                                   <td>
+													  <h5><a href="training_1.html" title="zum Training 1">Training 1</a></h5>
+                                                      <a href="training_1.html" target="_top" title="Training 1">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt</a>
+													  <br>
+                                                      <small>Gestartet am 29. November 2019</small>
+												   </td>
+                                                   <td class="project_progress">
+                                                      <div class="progress progress_sm">
+                                                         <div class="progress-bar progress-bar-animated progress-bar-striped" role="progressbar" aria-valuenow="97" aria-valuemin="0" aria-valuemax="100" style="width: 98%;"></div>
+                                                      </div>
+                                                      <small>Fast abgeschlossen</small>
+                                                   </td>
+                                                   <td>
+                                                      <a href="training_1.html" title="Training 1 weitermachen" class="btn btn-progress btn-xs">Offen</a>
+                                                   </td>
+                                                </tr>
+                                                <tr>
+                                                   <td>2</td>
+                                                   <td>
+													  <h5>Training 2</h5>
+                                                      <a>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt</a>
+													  <br>
+                                                      <small>Gestartet am 01. Dezember 2019</small>
+												   </td>
+                                                   <td class="project_progress">
+                                                      <div class="progress progress_sm">
+                                                         <div class="progress-bar progress-bar-animated progress-bar-striped" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 25%;"></div>
+                                                      </div>
+                                                      <small>25% abgeschlossen</small>
+                                                   </td>
+                                                   <td>
+                                                      <button type="button" class="btn btn-progress btn-xs">Offen</button>
+                                                   </td>
+                                                </tr>
+                                                <tr>
+                                                   <td>3</td>
+                                                   <td>
+													  <h5>Training 3</h5>
+                                                      <a>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt</a>
+													  <br>
+                                                      <small>Abgeschlossen am 01. Februar 2020</small>
+												   </td>
+                                                   <td class="project_progress">
+                                                      <div class="progress progress_sm">
+                                                         <div class="progress-bar progress-bar-animated progress-bar-striped" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"></div>
+                                                      </div>
+                                                      <small>100% abgeschlossen</small>
+                                                   </td>
+                                                   <td>
+                                                      <button type="button" class="btn btn-success btn-xs">Abgeschlossen</button>
+                                                   </td>
+                                                </tr>
+                                                <tr>
+                                                   <td>4</td>
+                                                   <td>
+													  <h5>Training 4</h5>
+                                                      <a>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt</a>
+                                                      <br>
+                                                      <small>Gestartet am 01. Februar 2020</small>
+                                                   </td>
+                                                   <td class="project_progress">
+                                                      <div class="progress progress_sm">
+                                                         <div class="progress-bar progress-bar-animated progress-bar-striped" role="progressbar" aria-valuenow="47" aria-valuemin="0" aria-valuemax="100" style="width: 47%;"></div>
+                                                      </div>
+                                                      <small>47% abgeschlossen</small>
+                                                   </td>
+                                                   <td>
+                                                      <button type="button" class="btn btn-progress btn-xs">Offen</button>
+                                                   </td>
+                                                </tr>
+                                                <tr>
+                                                   <td>5</td>
+                                                   <td>
+													  <h5>Training 5</h5>
+                                                      <a>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt</a>
+													  <br>
+                                                      <small>Gestartet am 21. Jänner 2020</small>
+												   </td>
+                                                   <td class="project_progress">
+                                                      <div class="progress progress_sm">
+                                                         <div class="progress-bar progress-bar-animated progress-bar-striped" role="progressbar" aria-valuenow="63" aria-valuemin="0" aria-valuemax="100" style="width: 63%;"></div>
+                                                      </div>
+                                                      <small>63% abgeschlossen</small>
+                                                   </td>
+                                                   <td>
+                                                      <button type="button" class="btn btn-progress btn-xs">Offen</button>
+                                                   </td>
+                                                </tr>                                         
+                                             </tbody>
+                                          </table>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <!-- end row -->
+                     </div>
+                     <!-- footer -->
+                     <div class="container-fluid">
+                        <div class="row">
+                           <div class="footer">
+                              <p>Copyright &copy; 2020 All rights reserved.</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+            </div>
+         </div>
+      </div>
+      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	  <script src="js/animate.js"></script>
+	  <script src="js/utils.js"></script>
+      <script src="js/custom.js"></script>
+   </body>
+</html>

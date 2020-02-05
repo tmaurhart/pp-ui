@@ -1,0 +1,169 @@
+.topbar .navbar {
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.sidebar_user_info {
+    background: #fff;
+}
+
+.sidebar_toggle {
+    background: #3da6db;
+}
+
+.icon_info ul.user_profile_dd > li {
+    background: #3da6db;
+}
+
+.icon_info span.badge {
+    background: #3da6db;
+}
+
+.icon_info ul li a {
+    color: #333;
+}
+
+.user_info h6 {
+    color: #222;
+}
+
+.counter_section .counter_no p.total_no {
+    color: #fff;
+}
+
+.counter_section .counter_no p.head_couter {
+    color: rgba(255,255,255,.7);
+}
+
+#sidebar h4 {
+    background: #f3f3f3;
+    color: #222;
+    border-bottom: none;
+}
+
+#sidebar {
+    background-color: #fff;
+}
+
+#sidebar ul.components ul {
+    background: #fff;
+    padding: 0;
+}
+
+#sidebar ul.components li ul li a {
+    border-top: solid #ddd 1px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+ 
+#sidebar ul li a {
+	color: #222;
+}
+
+#sidebar ul.components ul li a {
+    color: #333;
+}
+
+#sidebar ul.components ul li a:hover {
+    color: #3da6db;
+}
+
+#sidebar ul li a:hover, #sidebar ul li a:focus {
+    color: #222;
+}
+
+.dark_bg {
+    background: #3da6db;
+}
+
+.progress.skill-bar .progress-bar {
+    background-color: #3da6db;
+}
+
+.dash_head {
+    background-color: #3da6db;
+}
+
+#videoElement {
+	width: 100%;
+	height: 375px;
+	background-color: #666;
+}
+
+.item_section {
+	background: #FFF !important;
+	padding: 15px;
+	transition: all ease 0.5s;
+}
+
+.item_icon {
+	position: absolute;
+	top: -10px;
+	right: 0px;
+	z-index: 1;
+}
+
+.item_icon i {
+    font-size: 28px;
+    line-height: normal;
+    width: 100%;
+    float: left;
+    text-align: center;
+	transition: all ease 0.5s;
+}
+
+.item_icon i.checked:before {
+	color: #1ed085;
+	content: "\f14a";
+}
+
+.item_icon i.unchecked:before {
+	content: "\f0c8";
+}
+
+.item_section:hover .item_icon i.unchecked:before {
+	color: #1ed085;
+	content: "\f14a";
+}
+
+.item_section:hover .item_icon i.checked:before {
+	color: #dc3545;
+	content: "\f00d";
+}
+
+.tool_section {
+	padding: 15px;
+	background: #EEE;
+}
+
+.tool_section h6 {
+	font-size: 16px;
+	font-weight: 500;
+	text-align: center;
+	margin: 0 0 10px 0;
+}
+
+input.field_training_title {
+	font-size: 18px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid #ddd 2px;
+    width: 100%;
+    padding: 10px;
+    line-height: normal;
+    font-weight: 300;
+    transition: ease all 0.5s;
+}
+
+.img-infobox {
+	max-width: 50%;
+	float: left;
+}
+
+.btn-back {
+	position: absolute;
+	top: 15px;
+	right: 0px;
+	z-index: 1;
+}

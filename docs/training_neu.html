@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="de">
+   <head>
+      <meta charset="utf-8">
+      <title>Ophtra - Auswahl | eyecre</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+	  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+	  <link rel="apple-touch-icon" sizes="76x76" href="apple-touch-icon.png">
+	  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+	  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+	  <link rel="manifest" href="site.webmanifest">
+	  <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+	  <meta name="msapplication-TileColor" content="#ffffff">
+	  <meta name="theme-color" content="#ffffff">
+	  
+	  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	  <link rel="stylesheet" href="css/style.css">
+	  <link rel="stylesheet" href="css/responsive.css">
+	  <link rel="stylesheet" href="css/custom.css">
+	  
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+	  <script src="https://kit.fontawesome.com/7f6d545d96.js" crossorigin="anonymous"></script>	  
+   </head>
+   <body class="dashboard dashboard_2">
+      <div class="full_container">
+         <div class="inner_container">
+            <!-- Sidebar  -->
+            <nav id="sidebar">
+               <div class="sidebar_blog_1">
+                  <div class="sidebar-header">
+                     <div class="logo_section">
+                        <a href="index.html"><img class="logo_icon img-responsive" src="images/logo_icon.png" alt="#"></a>
+                     </div>
+                  </div>                  
+               </div>
+               <div class="sidebar_blog_2">
+                  <h4>Menü</h4>
+                  <ul class="list-unstyled components">
+                     <li class="active">
+                        <a href="index.html" aria-expanded="false"><i class="fa fas far fa-dashboard blue_color"></i> <span>Startseite</span></a>
+                     </li>
+					 <li>
+                        <a href="#element" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i class="fa fa-soccer-ball-o blue_color"></i> <span>Trainings</span></a>
+                        <ul class="collapse list-unstyled" id="element">
+						   <li><a href="training_neu.html">> <span>Neues Training</span></a></li>
+                           <li><a href="training_1.html">> <span>Training 1</span></a></li>
+                           <li><a href="#">> <span>Training 2</span></a></li>
+                        </ul>
+                     </li>
+					</ul>
+				</div>
+            </nav>
+            <!-- end sidebar -->
+            <!-- right content -->
+            <div id="content">
+               <!-- topbar -->
+               <div class="topbar">
+                  <nav class="navbar navbar-expand-lg navbar-light">
+                     <div class="full">
+                        <button type="button" id="sidebarCollapse" class="sidebar_toggle"><i class="fa fas far fa-bars"></i></button>
+                        <div class="logo_section">
+                           <a href="index.html"><img class="img-responsive" src="images/logo-eyecre.png" alt="eyecre"></a>
+                        </div>
+                        <div class="right_topbar">
+                           <div class="icon_info">
+								<ul>
+                                 <li><a href="#"><i class="fa fas far fa-shopping-cart"></i><span class="badge">4</span></a></li>
+								</ul>
+                                <ul class="user_profile_dd">
+                                 <li>
+                                    <a class="dropdown-toggle" data-toggle="dropdown"><span class="name_user">Demo User</span></a>
+                                    <div class="dropdown-menu">
+                                       <a class="dropdown-item" href="#">Mein Profil</a>
+                                       <a class="dropdown-item" href="#">Einstellungen</a>
+                                       <a class="dropdown-item" href="#">Hilfe</a>
+                                       <a class="dropdown-item" href="#"><span>Abmelden</span> <i class="fa fas far fa-sign-out"></i></a>
+                                    </div>
+                                 </li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                  </nav>
+               </div>
+               <!-- end topbar -->
+               <div class="midde_cont">
+                  <div class="container-fluid">
+					<div class="row column_title">
+                        <div class="col-md-12">
+                           <div class="page_title">
+                              <h2>Neues Training zusammenstellen</h2>
+                           </div>
+                        </div>
+                     </div>
+					 <div class="row column1">
+						<div class="full graph_head">
+                            <div class="heading1 margin_0">
+                                <h2>Titel eingeben</h2>
+                            </div>
+                        </div>
+						<div class="col-md-12">
+							<div class="full margin_bottom_30">
+								<input type="text" class="field_training_title" name="training_title" value="Training 1" readonly>
+							</div>
+						</div>
+					 </div>
+					 <div class="row column1">
+						  <div class="full graph_head">
+                                 <div class="heading1 margin_0">
+                                    <h2>Lernvideos auswählen</h2>
+                                 </div>
+                              </div>
+                        <div class="col-md-6 col-lg-3">
+                           <div class="full counter_section item_section margin_bottom_30">
+							   <div class="item_icon">
+								   <i class="fa fas far unchecked"></i>
+							   </div>
+                              <img src="images/thumb-video.jpg" class="img-responsive" style="width:100%;" alt="Lernvideo">
+                           </div>
+                        </div>
+						<div class="col-md-6 col-lg-3">
+                           <div class="full counter_section item_section margin_bottom_30">
+							   <div class="item_icon">
+								   <i class="fa fas far checked"></i>
+							   </div>
+                              <img src="images/thumb-video.jpg" class="img-responsive" style="width:100%;" alt="Lernvideo">
+                           </div>
+                        </div>
+						<div class="col-md-6 col-lg-3">
+                           <div class="full counter_section item_section margin_bottom_30">
+							   <div class="item_icon">
+								   <i class="fa fas far unchecked"></i>
+							   </div>
+                              <img src="images/thumb-video.jpg" class="img-responsive" style="width:100%;" alt="Lernvideo">
+                           </div>
+                        </div>
+						<div class="col-md-6 col-lg-3">
+                           <div class="full counter_section item_section margin_bottom_30">
+							   <div class="item_icon">
+								   <i class="fa fas far unchecked"></i>
+							   </div>
+                              <img src="images/thumb-video.jpg" class="img-responsive" style="width:100%;" alt="Lernvideo">
+                           </div>
+                        </div>
+					</div>
+					  
+					  
+									  
+					  <div class="row column1">
+						  <div class="full graph_head">
+                                 <div class="heading1 margin_0">
+                                    <h2>Werkzeuge auswählen</h2>
+                                 </div>
+                              </div>
+                        <div class="col-md-6 col-lg-3">
+                           <div class="full counter_section item_section margin_bottom_30">
+							   <div class="item_icon">
+								   <i class="fa fas far checked"></i>
+							   </div>
+                              <img src="images/thumb-skalpell-1.jpg" class="img-responsive" style="width:100%;" alt="Skalpell">
+                           </div>
+                        </div>
+						<div class="col-md-6 col-lg-3">
+                           <div class="full counter_section item_section margin_bottom_30">
+							   <div class="item_icon">
+								   <i class="fa fas far unchecked"></i>
+							   </div>
+                              <img src="images/thumb-skalpell-2.jpg" class="img-responsive" style="width:100%;" alt="Skalpell">
+                           </div>
+                        </div>
+						<div class="col-md-6 col-lg-3">
+                           <div class="full counter_section item_section margin_bottom_30">
+							   <div class="item_icon">
+								   <i class="fa fas far checked"></i>
+							   </div>
+                              <img src="images/thumb-pinzette-1.jpg" class="img-responsive" style="width:100%;" alt="Skalpell">
+                           </div>
+                        </div>
+						<div class="col-md-6 col-lg-3">
+                           <div class="full counter_section item_section margin_bottom_30">
+							   <div class="item_icon">
+								   <i class="fa fas far checked"></i>
+							   </div>
+                              <img src="images/thumb-zange-1.jpg" class="img-responsive" style="width:100%;" alt="Skalpell">
+                           </div>
+                        </div>
+					  </div>
+					  
+					  <div class="row column1">
+						  <div class="col-md-12 text-right">
+							  <a href="training_1.html" class="model_bt btn btn-primary">Training 1 übernehmen</a>
+						  </div>						  
+					  </div>
+				
+                  <!-- footer -->
+                  <div class="container-fluid">
+                     <div class="footer">
+                        <p>Copyright &copy; 2020 - All rights reserved.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+	  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	  <script src="js/animate.js"></script>
+	  <script src="js/utils.js"></script>
+      <script src="js/custom.js"></script>
+   </body>
+</html>
